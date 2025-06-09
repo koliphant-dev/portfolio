@@ -1,0 +1,43 @@
+/* global */
+.mainHeader {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+/* index */
+#centerLogo {
+    background-color: azure;
+    padding: 20px;
+}
+
+#centerLogo img {
+    border: 1px solid #000;
+    border-radius: 10px;
+    max-width: 400px;
+    height: auto;
+}
+
+#carouselProjects {
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+@media (max-width: 1250px) {
+    #centerLogo img {
+        border: 1px solid #000;
+        border-radius: 10px;
+        width: 50%;
+        height: auto;
+    }
+}
+
+/* contact */
+.contact {
+    width: 50%;
+    height: auto;
+    margin: 10px;
+}
